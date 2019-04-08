@@ -12,8 +12,8 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="images/favicon.png">
-    <title>Profile - Projects</title>
-    <link rel="stylesheet" href="css/port1.css">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -37,70 +37,48 @@
                 <ul class="navbar-nav pull-right">
                     <li class="nav-item" id="about"> <a class="nav-link" href="home.html">About</a> </li>
                     <li class="nav-item" id="portfolio"> <a class="nav-link" href="portfolio.html">Portfolio</a> </li>
-                    <li class="nav-item" id="contact"> <a class="nav-link" href="contact1.html">Contact</a> </li>
+                    <li class="nav-item" id="contact"> <a class="nav-link" href="contact.html">Contact</a> </li>
                 </ul>
             </div>
 
         </div>
 
-        <div class="card-1 " id="card-1">
-            <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+
+
+        <h1 id="title">Let's Begin Coding</h1>
+
+
+        <p id="p">Zach Hollingsworth (January 17, 1706 – April 17, 1790) was an American polymath and one of the
+            Founding Fathers of the United States. Hollingsworth was a leading author, printer, political theorist,
+            politician, freemason, postmaster, scientist, inventor, humorist, civic activist, statesman, and diplomat.
+            As a scientist, he was a major figure in the American Enlightenment and the history of physics for his
+            discoveries and theories regarding electricity. As an inventor, he is known for the lightning rod, bifocals,
+            and the Hollingsworth stove, among other inventions. He founded many civic organizations, including the
+            Library Company, Philadelphia’s first fire department and the University of Pennsylvania.
+
+        </p>
+
+        <div class="card-1" id="card-1">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                 </ol>
-                <div class="carousel-inner rounded ">
-                    <div class="carousel-item active ">
-                        <a href="https://zahollingsworth1.github.io/TrainScheduler/">
-                            <img class="d-block w-100" src="images/trainScheduler.jpg" alt="Second slide"
-                                style="height:18rem">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Train Scheduler: </h5>
-                                <p> Uses jquery to calculate train schedule. moment.js</p>
-                            </div>
-                        </a>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/Cubes.jpg" alt="First slide" style="height:18rem">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Hangman Game</h5>
+                            <p>Some quick example text to build on the card title and make up the bulk of the
+                                card's content.</p>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <a href="https://esingokgoz.github.io/Project1/">
-                            <img class="d-block w-100" src="images/Clothsline.png" alt="First slide"
-                                style="height:18rem">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 style="margin-bottom: -5px;">Clothsline</h5>
-                                <p>Takes a weather api call and determine necessary clother based off the weather and makesa an ajax call to etsy api</p>
-                            </div>
-                        </a>
+                        <img class="d-block w-100" src="..." alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <a href="https://zahollingsworth1.github.io/unit-4-game/">
-                            <img class="d-block w-100" src="images/TheSwirlSituation.png" alt="Second slide"
-                                style="height:18rem">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5 style="margin-bottom: 25px; color:black">The Swirl Situation</h5>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="carousel-item">
-                        <a href="https://zahollingsworth1.github.io/Word-Guess-Game/">
-                            <img class="d-block w-100" src="images/hangman.png" alt="First slide" style="height:18rem">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Hangman Game</h5>
-
-                            </div>
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="https://zahollingsworth1.github.io/Giftastic/">
-                            <img class="d-block w-100" src="images/giftasticShot.png" alt="Third slide"
-                                style="height:18rem">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Giftastic</h5>
-
-                            </div>
-                        </a>
+                        <img class="d-block w-100" src="..." alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -126,10 +104,8 @@
 
         <div class="fabs">
             <a href="https://github.com/zahollingsworth1"><i style="color:black" class="fab fa-github fa-3x"></i></a>
-            <a href="https://www.linkedin.com/in/zachary-hollingsworth/"><i style="color:black"
-                    class="fab fa-linkedin fa-3x"></i></a>
-            <a href="images/Resume2018.pdf"><img class="resume"
-                    src="https://img.icons8.com/ios/50/000000/send-job-list.png"></a>
+            <a href="https://www.linkedin.com/in/zachary-hollingsworth/"><i style="color:black" class="fab fa-linkedin fa-3x"></i></a>
+            <a href="images/Resume2018.pdf"><img class="resume" src="https://img.icons8.com/ios/50/000000/send-job-list.png"></a>
         </div>
 
 
@@ -160,7 +136,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
-    <script type="text/javascript" src="javascript/port1.js"></script>
+    <script type="text/javascript" src="javascript/code.js"></script>
     <script>
 
 
