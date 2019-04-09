@@ -14,7 +14,8 @@ contact.add({
 
 contact.add({
     targets: 'section div',
-    backgroundColor: 'rgb(72, 196, 103)',    
+    backgroundColor: 'rgb(72, 196, 103)',  
+    delay: anime.stagger(100),   
 },'-=5000') 
 
 contact.add({

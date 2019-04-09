@@ -98,7 +98,9 @@ section {
 
 section div {
   height: 100vh;
-  width: 90%;
+  width: 95%;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
   background-color: #48c467;
   opacity: .7;
 }

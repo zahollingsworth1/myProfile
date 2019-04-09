@@ -13,9 +13,10 @@ contact.add({
 })
 
 contact.add({
-    targets: 'section div',
-    backgroundColor: 'rgb(72, 196, 103)',    
-},'-=5000') 
+    targets: 'section div', 
+    backgroundColor: 'rgb(72, 196, 103)',  
+    delay: anime.stagger(100),  
+},'-=2900') 
 
 contact.add({
     targets: '#card-2',

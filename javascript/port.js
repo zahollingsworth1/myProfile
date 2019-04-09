@@ -12,13 +12,17 @@ rotate.add({
     //autoplay: false,
 })
 rotate.add({
-    targets: 'section div',
+    targets: 'section div',   
     backgroundColor: 'rgb(244, 80, 66)',
-    delay: anime.stagger(100)
-})   
+    delay: anime.stagger(100),   
+}) 
+
+   
+
 rotate.add({
     targets: '#card-1',
     opacity: 1,
     top: '25%',
     duration: 1000 * 2,
 },'-=3000')
+

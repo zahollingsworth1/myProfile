@@ -10,9 +10,11 @@ tl.add({
 })
 tl.add({
     targets: 'section div',
-    width: '90%',
+    rotate: '20deg',
+    width: "95%",
     backgroundColor: 'rgb(93, 109, 135)',
     opacity: .7,
+    delay: anime.stagger(100)
 })
 tl.add({
     targets: 'h1',

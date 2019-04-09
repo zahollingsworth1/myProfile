@@ -92,11 +92,15 @@ section {
   display: grid;
   -ms-grid-columns: (auto)[10];
       grid-template-columns: repeat(10, auto);
+  -webkit-transform: scaleY(1) translateX(0%);
+          transform: scaleY(1) translateX(0%);
 }
 
 section div {
   height: 100vh;
-  width: 90%;
+  width: 95%;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
   background-color: #5d6d87;
   opacity: .7;
 }
