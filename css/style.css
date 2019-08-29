@@ -121,12 +121,34 @@ h1 {
 p {
   position: absolute;
   max-height: 35%;
-  top: 50%;
+  top: 40%;
   left: 15%;
   width: 80%;
   z-index: 3;
   opacity: 0;
   overflow: auto;
+}
+#skills {
+  position: absolute;
+  max-height: 35%;
+  top: 60%;
+  left: 30%;
+  width: 55%;
+  z-index: 3;
+  opacity: 0;
+  overflow: auto;
+  margin: 5px;
+}
+#sets {
+  position: absolute;
+  max-height: 35%;
+  top: 65%;
+  left: 30%;
+  width: 55%;
+  z-index: 3;
+  opacity: 0;
+  overflow: auto;
+  margin: 5px;
 }
 
 #card-1 {
